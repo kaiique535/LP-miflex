@@ -1,20 +1,26 @@
 @import "tailwindcss";
 
 :root {
-  --background: #FFFBF2; /* Tom pastel (cream) suave e lúdico para dar vida à página */
-  --foreground: #1E293B; /* Texto escuro para contraste */
+  --background: #FFFDF7; /* Creme bem suave, fundo do adesivo */
+  --foreground: #4A3B32; /* Marrom escuro quente, igual ao texto 'Miniaturas flexíveis' */
 }
 
 @theme inline {
-  /* Cores Vibrantes (Toy Brand) */
-  --color-miflex-blue: #2563EB;
-  --color-miflex-blue-light: #60A5FA;
-  --color-miflex-orange: #F97316;
-  --color-miflex-orange-light: #FDBA74;
-  --color-miflex-yellow: #FBBF24;
-  --color-miflex-green: #10B981;
-  --color-miflex-dark: #1E293B; /* Slate 800 - Fundo escuro para contrastar textos brancos */
-  --color-miflex-light: #F1F5F9; /* Slate 100 - Fundo claro para contrastes sutis */
+  /* Cores exatas extraídas do Logo Mi-Flex */
+  --color-miflex-blue: #6CA8D7;        /* Azul claro da barra inferior e formas */
+  --color-miflex-blue-light: #A8CDE8;  /* Azul mais suave para fundos translúcidos */
+  --color-miflex-blue-dark: #5986B6;   /* Azul escuro do bloco inferior */
+  
+  --color-miflex-orange: #F48B44;      /* Laranja do bloco do meio */
+  --color-miflex-orange-light: #FAC4A1;/* Laranja bem suave para fundos */
+  --color-miflex-red-orange: #D94B2B;  /* Laranja avermelhado do contorno/sombra do texto Mi-Flex */
+  
+  --color-miflex-yellow: #F5C216;      /* Amarelo das ondas e estrelas */
+  --color-miflex-green: #81C83D;       /* Verde limão das folhas/raios */
+  --color-miflex-teal: #50AAB3;        /* Verde água (teal) das estrelinhas */
+  
+  --color-miflex-dark: #4A3B32;        /* Fundo escuro quente para contraste */
+  --color-miflex-light: #F7F3EA;       /* Creme ligeiramente mais escuro para fundos secundários */
   
   --color-background: var(--background);
   --color-foreground: var(--foreground);
