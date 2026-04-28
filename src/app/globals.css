@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FFFBF2; /* Tom pastel (cream) suave e lúdico para dar vida à página */
+  --foreground: #1E293B; /* Texto escuro para contraste */
+}
+
+@theme inline {
+  /* Cores Vibrantes (Toy Brand) */
+  --color-miflex-blue: #2563EB;
+  --color-miflex-blue-light: #60A5FA;
+  --color-miflex-orange: #F97316;
+  --color-miflex-orange-light: #FDBA74;
+  --color-miflex-yellow: #FBBF24;
+  --color-miflex-green: #10B981;
+  --color-miflex-dark: #1E293B; /* Slate 800 - Fundo escuro para contrastar textos brancos */
+  --color-miflex-light: #F1F5F9; /* Slate 100 - Fundo claro para contrastes sutis */
+  
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  /* Fontes lúdicas e amigáveis */
+  --font-heading: var(--font-fredoka);
+  --font-sans: var(--font-nunito);
+
+  /* Utilities Extras */
+  --radius-blob: 40% 60% 70% 30% / 40% 50% 60% 50%;
+  --animate-blob: blob 7s infinite alternate;
+}
+
+@keyframes blob {
+  0% {
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 50% 40% 50%;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden; /* Evitar scroll horizontal não intencional */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), sans-serif;
+}
