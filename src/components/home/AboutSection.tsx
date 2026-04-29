@@ -14,8 +14,8 @@ const features = [
   },
   {
     icon: Palette,
-    title: "Cores Vibrantes",
-    description: "Cada Mi-Flex traz uma explosão de cores que dão vida à sua coleção de forma única.",
+    title: "Crie Suas Próprias Cores",
+    description: "Personalize os modelos brancos com canetinhas! A diversão vai muito além da brincadeira, tornando-se uma verdadeira atividade de arte.",
     color: "text-miflex-orange",
     bgColor: "bg-miflex-orange-light/20",
     borderColor: "border-miflex-orange-light",
@@ -81,7 +81,7 @@ export function AboutSection() {
             transition={{ delay: 0.1 }}
             className="text-xl text-gray-600 font-sans"
           >
-            Nascemos para revolucionar o mundo das miniaturas! O Mi-Flex não é só um boneco de enfeite, é uma experiência tátil, lúdica e cheia de personalidade.
+            Nascemos para revolucionar o mundo das miniaturas! O Mi-Flex não é só um brinquedo, é uma experiência tátil e lúdica. Descubra os nossos incríveis Baldes de Coleção!
           </motion.p>
         </div>
 
