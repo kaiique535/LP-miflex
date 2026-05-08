@@ -30,10 +30,10 @@ Este arquivo registra ativamente todas as etapas do desenvolvimento da Landing P
 - [x] Implementar Call to Action Final ("Comece sua coleção hoje")
 - [x] Desenvolver Formulário de Captura de Leads (Nome, Email)
 
-### 🔐 Fase 5: Integração e Admin (Área Logada)
-- [ ] Criar estrutura do painel Admin
-- [ ] Módulo de Gestão de Produtos (CRUD e link ML)
-- [ ] Módulo de Gestão do Carrossel (AWS S3)
+### 🔐 Fase 5: Integração e Admin (Área Logada) (Concluída)
+- [x] Criar estrutura do painel Admin (API Routes no Next.js com Mongoose)
+- [x] Módulo de Gestão de Produtos (CRUD e link ML)
+- [x] Módulo de Gestão do Carrossel (Upload para AWS S3)
 
 ## 📝 Histórico de Atualizações
 - **27/04/2026:** Inicialização do documento de log e definição da estrutura de agentes.
@@ -41,6 +41,7 @@ Este arquivo registra ativamente todas as etapas do desenvolvimento da Landing P
 - **28/04/2026:** Fase 2 concluída. Criação da Navbar, Componente Hero com imagens geradas por IA e Seção "O que é o Mi-Flex" com cards animados.
 - **28/04/2026:** Fase 3 concluída. Vitrine de Produtos integrada com modal de detalhes e seção de fluxo de compra "Como Funciona".
 - **28/04/2026:** Fase 4 concluída. Componentes de Avaliações (Prova Social), Call to Action com captura de Leads e Footer implementados.
+- **[DATA ATUAL]:** Fase 5 concluída. Criada API interna no Next.js com Route Handlers para gestão de Produtos e Carrossel. Configurado NextAuth para proteção do painel Admin, modelagem de dados com Mongoose (MongoDB) e rotas de upload para o S3.
 
 ---
 *Nota: Este arquivo será atualizado a cada conclusão de etapa ou mudança significativa no escopo.*
