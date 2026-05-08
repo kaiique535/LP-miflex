@@ -4,6 +4,8 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
+import { Logo } from "@/components/ui/Logo";
+import { LogoV1 } from "@/components/ui/LogoV1";
 
 const navLinks = [
   { title: "Home", href: "/" },
@@ -21,13 +23,8 @@ export function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-miflex-blue rounded-xl flex items-center justify-center transform -rotate-6 shadow-md hover:rotate-0 transition-transform duration-300">
-                <span className="text-white font-heading font-bold text-xl">M</span>
-              </div>
-              <span className="font-heading font-bold text-2xl text-miflex-blue tracking-tight">
-                Mi-Flex
-              </span>
+            <Link href="/" className="flex items-center">
+              <Logo />
             </Link>
           </div>
 

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Mail, MapPin } from "lucide-react";
+import { Logo } from "@/components/ui/Logo";
 
 export function Footer() {
   return (
@@ -11,13 +12,8 @@ export function Footer() {
           
           {/* Brand Info */}
           <div className="col-span-1 md:col-span-1">
-            <Link href="/" className="flex items-center gap-2 mb-6">
-              <div className="w-8 h-8 bg-miflex-blue rounded-lg flex items-center justify-center transform -rotate-6">
-                <span className="text-white font-heading font-bold">M</span>
-              </div>
-              <span className="font-heading font-bold text-2xl tracking-tight">
-                Mi-Flex
-              </span>
+            <Link href="/" className="inline-block mb-6">
+              <Logo />
             </Link>
             <p className="text-gray-400 font-sans mb-6">
               Criando sorrisos através de miniaturas articuladas impressas em 3D. Onde a imaginação toma forma.
