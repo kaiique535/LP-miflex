@@ -24,7 +24,7 @@ export function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="flex items-center">
-              <LogoV1 />
+              <Logo />
             </Link>
           </div>
 
