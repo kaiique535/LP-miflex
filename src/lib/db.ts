@@ -1,12 +1,5 @@
 import mongoose from 'mongoose';
 
-const MONGODB_URI = process.env.MONGODB_URI;
-
-if (!MONGODB_URI) {
-  throw new Error(
-    'Por favor, defina a variável de ambiente MONGODB_URI dentro de .env.local'
-  );
-}
 
 /**
  * Global is used here to maintain a cached connection across hot reloads
@@ -27,6 +20,14 @@ if (!cached) {
 }
 
 async function dbConnect() {
+  const MONGODB_URI = process.env.MONGODB_URI;
+
+  if (!MONGODB_URI) {
+    throw new Error(
+      'Por favor, defina a variável de ambiente MONGODB_URI dentro de .env.local ou nas configurações do servidor'
+    );
+  }
+
   if (cached.conn) {
     return cached.conn;
   }
